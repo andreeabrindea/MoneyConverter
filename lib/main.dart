@@ -31,17 +31,20 @@ class _MyHomePageState extends State<MyHomePage> {
   double RON = 0;
   String? text;
   String EUR="";
+  String? num;
 
   void onPressed()
   { text = controller.text;
 
     setState(() {
       if(text!=null){
-        RON = double.parse(text!) % 4.93;
-        EUR = "$RON EUR";
+        RON = double.parse(text!) / 4.93;
+        num = RON.toStringAsFixed(2);
+        EUR = "$num EUR";
       }
-      else
+      else {
         RON = 0;
+      }
 
     });
   }
