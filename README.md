@@ -1,6 +1,6 @@
 # money_converter
 
-#### A Flutter project but i messed up my old commits with a force push :(
+#### An old and basic Flutter project (but I messed up my old commits with a force push :( )
 #### This is one of my first flutter projects I did last year. It's a simple money convertor, where you enter the value in RON and get the conversion in EUR.
 
 
